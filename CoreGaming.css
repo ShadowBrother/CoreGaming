@@ -1,0 +1,161 @@
+/*HEADER*/
+header {
+	background : #66CCCC ;
+	height : 150px ;
+	width : 100%;
+}
+
+header #logo {
+	float : left ;
+	margin-top : 25px ;
+}
+
+header #details {
+	float : left ;
+	margin-right : 20px ;
+}
+
+
+#tabs {
+	position : relative ;
+	top : -25px;
+	
+}
+
+#tabs li {
+	display : inline ;
+	background : #66CCCC ;
+	font-size : 2em;
+	width : 30px ;
+	height : 5px ;
+	border-radius : 15px;
+	-moz-border-radius : 15px ;
+	-webkit-border-radius : 15px ;
+	padding : 5px ;
+	margin : -2px ;
+
+	
+}
+
+#tabs li a {
+	text-decoration : none ;
+}
+
+#login {
+
+	float : right ;
+	margin : 10px ;
+}
+
+#loginForm input[type="password"], #loginForm input[type="text"] {
+
+	float : right ;
+	margin-left : 15px ;
+
+}
+
+#loginForm label {
+
+	float : left ;
+}
+	
+/*BODY*/
+body {
+	background : lightblue ;
+	
+}
+
+/*GAME TABLE*/
+
+table {
+    border : none ;
+}
+
+td {
+    border : 3px solid #66CCCC ;
+    
+}
+
+.game {
+
+	width: 350px ;
+	height: 350px ;
+}
+.game img {
+	height : 100px ;
+	width : auto;
+	float : left ;
+	margin : 5px ;
+}
+
+.game .details {
+    clear : both ;
+    float : left ;
+    width : 30% ;
+    margin-left: 10px;
+	margin-top: 10px ;
+	
+    
+}
+
+.game .details .priceWrapper .price, .game .details .quantityWrapper .quantity {
+
+	display: inline ;
+
+}
+
+.descriptionWrapper{
+    
+    width:60% ;
+    float:right ;
+    margin-right: 10px ;
+
+}
+.description {
+    text-align : justify ;
+    //margin-right: 10px ;
+    //width: 300px;
+    
+}
+
+textarea.description {
+
+	max-height: 245px;
+	max-width: 200px;
+
+}
+.details input {
+
+	width: 80px;
+}
+
+/*Edit Buttons*/
+
+.edit {
+    float : right ;
+    font-size: 1em ;
+    
+}
+
+.save {
+	float : right ;
+	background : linear-gradient(to bottom, lightgreen, green) ;
+	font-size:1em ;
+	border-radius : 5px ;
+	-moz-border-radius : 5px ;
+	-webkit-border-radius : 5px ;
+}
+
+.cancel {
+	float : right ;
+	background : linear-gradient(to bottom, red, darkred) ;
+	font-size : 1em ;
+	border-radius : 5px ;
+	-moz-border-radius : 5px ;
+	-webkit-border-radius : 5px ;
+}
+
+.error {
+
+color : red ;
+}
