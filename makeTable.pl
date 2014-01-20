@@ -49,13 +49,13 @@ sub makeTable {
 
 #formatDate(date)
 #formats date for printing as Mon dd, yyyy
-#date : date string in the format mm:dd:yyyy
+#date : date string in ISO 8601 format: yyyy-mm-dd
 sub formatDate{
 
 	my $date = shift ;
 
 	my $ret = "" ;
-	$month = substr $date, 0, 2 ;
+	$month = substr $date, 5, 2 ;
 		
 		if ($month eq "01"){$ret.="Jan";}
 		elsif ($month eq "02"){$ret.="Feb";}
@@ -71,7 +71,7 @@ sub formatDate{
 		elsif ($month eq "12"){$ret.="Dec";}
 	
 
-	$ret.= " ".(substr $date, 3, 2).", ".(substr $date, 6, 4) ;
+	$ret.= " ".(substr $date, 8, 2).", ".(substr $date, 0, 4) ;
 	return $ret ;
 
 }

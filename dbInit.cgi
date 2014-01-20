@@ -24,25 +24,25 @@ $dbh->do("CREATE TABLE Games(
 	Description VARCHAR(255),
 	PRIMARY KEY (Title, Console, NewOrUsed)
 )");
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', 'N64', 15.00, 'Used', 3, '11:23:1998',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', 'N64', 15.00, 'Used', 3, '1998-11-23',
  'Images\/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png',
  'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff!')") ;
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 39.99, 'New', 10, '06:19:2011',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 39.99, 'New', 10, '2011-06-19',
  'Images\/Legend-of-Zelda-Ocarina-of-Time-3D-Boxart.jpg',
  'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff! And now in 3D!')") ;
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 19.99, 'Used', 6, '06:19:2011',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 19.99, 'Used', 6, '2011-06-19',
  'Images\/Legend-of-Zelda-Ocarina-of-Time-3D-Boxart.jpg',
 'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff! And now in 3D!')") ;
-$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 2', 'PS2', 14.99, 'Used', 3, '11:12:2001',
+$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 2', 'PS2', 14.99, 'Used', 3, '2001-11-12',
  'Images\/Metalgear2boxart.jpg',
 'The Stealth-tastic game from Hideo Kojima. Snaaaaake!')") ;
-$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 3:Snake Eater', 'PS2', 19.99, 'Used', 5, '11:17:2004',
+$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 3:Snake Eater', 'PS2', 19.99, 'Used', 5, '2004-11-17',
  'Images\/Mgs3box.jpg',
 'The Stealth-tastic game from Hideo Kojima.And now with snake eating action! Snaaaaake!')") ;
-$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 4:Guns of the Patriots', 'PS3', 39.99, 'Used', 4, '06:12:2008',
+$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 4:Guns of the Patriots', 'PS3', 39.99, 'Used', 4, '2008-06-12',
  'Images\/Mgs4_cover.jpg',
 'The Stealth-tastic game from Hideo Kojima. Snaaaaake!')") ;
-$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 4:Guns of the Patriots', 'PS3', 49.99, 'New', 1, '06:12:2008',
+$dbh->do("INSERT INTO Games VALUES('Metal Gear Solid 4:Guns of the Patriots', 'PS3', 49.99, 'New', 1, '2008-06-12',
  'Images\/Mgs4_cover.jpg',
 'The Stealth-tastic game from Hideo Kojima. Snaaaaake!')") ;
 

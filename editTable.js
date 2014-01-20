@@ -180,7 +180,7 @@ function saveEdit(e){
 	}
 	
 	//format date for database
-	var $formatedDate = $.datepicker.formatDate("mm:dd:yy",new Date(releaseDate)) ;
+	var $formatedDate = $.datepicker.formatDate("yy-mm-dd",new Date(releaseDate)) ;
 	
 	//Quantity validation
 	

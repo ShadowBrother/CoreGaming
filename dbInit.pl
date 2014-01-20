@@ -24,13 +24,13 @@ $dbh->do("CREATE TABLE Games(
 	Description VARCHAR(255),
 	PRIMARY KEY (Title, Console, NewOrUsed)
 )");
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', 'N64', 15.00, 'Used', 3, '11:23:1998',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', 'N64', 15.00, 'Used', 3, '1998-11-23',
  'Images\/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png',
  'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff!')") ;
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 39.99, 'New', 10, '06:19:2011',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 39.99, 'New', 10, '2011-06-19',
  'Images\/Legend-of-Zelda-Ocarina-of-Time-3D-Boxart.jpg',
  'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff! And now in 3D!')") ;
-$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 19.99, 'Used', 6, '06:19:2011',
+$dbh->do("INSERT INTO Games VALUES('Legend of Zelda:Ocarina of Time', '3DS', 19.99, 'Used', 6, '2011-06-19',
  'Images\/Legend-of-Zelda-Ocarina-of-Time-3D-Boxart.jpg',
 'Ocarina of Time is only like the greatest game ever! It&apos;s super awesome and stuff! And now in 3D!')") ;
 
